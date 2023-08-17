@@ -15,7 +15,9 @@ typedef struct {
 void display_student(FILE *fp) {
     int searchOption;
     bool validInput = false;
-
+    
+    system("cls");
+    
     // Get search option
     while (!validInput) {
         printf("\n\n\t\tSearch by:\n\t\t1) Name\n\t\t2) ID\n\t\tEnter option: ");
