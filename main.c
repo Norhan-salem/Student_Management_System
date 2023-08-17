@@ -30,10 +30,6 @@ int main()
 
     while (1) // Infinite loop to keep the program running
     {
-        title(); // Call the title function to display the title
-        printf("\n\t");
-
-
 
         // Display the menu options
         printf("\n\n\t");
