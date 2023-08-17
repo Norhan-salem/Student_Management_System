@@ -22,7 +22,7 @@ void modify_student(FILE *fp) {
     int tempID;
     bool validInput = false;
 
-
+    system("cls");
 
 
     // Get student ID
