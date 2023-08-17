@@ -5,7 +5,6 @@
 #include"Modify_student.h"
 #include"Display_student.h"
 
-void title();
 FILE* tp; // Global variable for file pointer
 
 int main()
@@ -37,6 +36,9 @@ int main()
 
 
         // Display the menu options
+        printf("\n\n\t");
+        printf(" Student Management System ");
+        printf("\n");
         printf("\n\n\n\n\t\tChoose The Desired Option: ");
         printf("\n\n\t\t\t\t1. Add New Student");
         printf("\n\n\t\t\t\t2. Modify Student Data");
@@ -72,26 +74,6 @@ int main()
 
 }
 
-
-/**
- * Clears the screen and prints the title of the Student Management System.
- *
- * precondition: The function must be called in a system that supports the "cls" command.
- *
- * postcondition: The screen is cleared and the title of the Student Management System is printed.
- *
- * parameters: None
- *
- * return value: None
- */
-
-void title()
-{
-    system("cls");
-    printf("\n\n\t");
-    printf(" Student Management System ");
-    printf("\n");
-}
 
 
 
