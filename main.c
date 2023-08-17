@@ -22,7 +22,7 @@ int main()
         // If the file does not exist, create a new file in write mode
         if ((fp = fopen("db.txt", "wb+")) == NULL)
         {
-            printf("Can't create or open Database.");
+            printf("Can't create or open Database!!");
             return 0;
         }
     }
@@ -37,6 +37,7 @@ int main()
 
 
         // Display the menu options
+        printf("\n\n\n\n\t\tChoose The Desired Option: ");
         printf("\n\n\t\t\t\t1. Add New Student");
         printf("\n\n\t\t\t\t2. Modify Student Data");
         printf("\n\n\t\t\t\t3. View Record");
