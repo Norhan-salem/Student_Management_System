@@ -1,0 +1,15 @@
+Here are the instructions for compiling and running the Student Management System on a Windows operating system:
+
+1. Install a C compiler: You can use a C compiler such as GCC or MinGW to compile your C program on Windows.
+	You can download and install one of these compilers from their respective websites.
+
+2. Open the command prompt: Once you have installed a C compiler.
+
+3. Navigate to the project directory: Use the `cd` command to navigate to the directory where the project files are located.
+
+4. Compile the program: Use this command gcc main.c Add_new_student_mod.c Display_student.c remove_student.c Modify_student.c -o studentsystem.exe
+
+This will create an executable file named `studentsystem.exe` in the same directory.
+
+5. Run the program: To run the program, simply type the name of the executable file `studentsystem.exe`, press Enter and enjoy!
+
